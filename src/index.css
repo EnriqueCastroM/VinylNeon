@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  font-family: 'Roboto', sans-serif;  line-height: 1.5;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  
+  background-image: linear-gradient(rgb(44, 27, 28), rgb(239, 239, 239));
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  border-inline: #1a1a1a ;
+}
+
+.titulo h1{
+  font-family: 'Righteous', fantasy;
+  font-size: 128px;
+  margin: 0;
+  padding: 0;
+}
+a {
+  font-size: 124px;
+  color: #000000; 
+  text-decoration: none;
+}
+a:hover {rgb(8, 8, 8)
+  color: #535bf2;
+}
+p{
+  color:#f9f9f9;
+  font-size: x-large;
+  font-family: 'Roboto', sans-serif;
+}
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #ff7b00;
+  background-color: #f9f9f9;
+  color: #1a1a1a;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.card{
+
+  margin: 1;
+  background-color: #000000;
+
+}
+
+section article {
+  background-color: #ffffff;
+  margin: 1;
+  padding: 1;
+  height: 200px;px;
+}
+
+article {
+  display: block;
+  color: #1a1a1a;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-image: linear-gradient(rgb(44, 27, 28), rgb(239, 239, 239));  }
+  a:hover {
+    color: #ff7300;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
